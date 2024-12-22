@@ -63,3 +63,17 @@ fieldset legend{
     /* background: red; */
     padding: 0 4px;
 }
+
+ol li > div{
+    display: flex;
+    align-items: center;
+}
+ol li .mark1{
+    border: 1px solid #fe3242;
+    color: #fe3242;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 48px;
+    text-align: center;
+    font-size: 12px;
+}
